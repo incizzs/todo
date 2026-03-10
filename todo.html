@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <title>TO-DO LIST</title>
+
+</head>
+<body class="flex bg-sky-100 items-center justify-center h-screen">
+    <div class="border  flex-col gap-3  p-20 m-5 border-sky-950">
+        <h2 class="font-bold text-sky-700"id="title">--MISSIONS--</h2>
+        <input class="border rounded-md border-sky-500"type="text" id="todoInput" placeholder="missions" >
+        <button type="button" class="bg-sky-500 hover:bg-sky-700 border rounded-md w-15 border-sky-200 font-bold text-gray-200"onclick="getInputValue()" id="addButton">Add</button>
+        <ul class="font-medium text-sky-700 "id="myMissions">
+        </ul>
+    </div>  
+</body>
+<script src="script.js"></script>
+</html>
